@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding:0;
+    background-color:white;
+    color:brown;
+}
+header{
+    background-color:brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: large;
+    margin: 0;
+    animation:alternate;
+}
+.intro-section{
+    padding:20px;
+    text-align: center;
+}
+p{
+    font-size: medium;
+}
+.highlight{
+    font-weight:bold;
+    color:brown;
+}
