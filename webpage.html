@@ -1,64 +1,111 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-widt,initial-scale=1.0">
-        <title> Artificial intelligence</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1 class="fade-in"><b>INTRODUCTION TO ARTIFICIAL INTELLIGENCE</b></h1>
-        </header>
-        <section class="intro-section">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="fade-in"><b>INTRODUCTION TO ARTIFICIAL INTELLIGENCE</b></h1>
+    </header>
+    <div class="intro-section">
+        <p>
+            Artificial intelligence (AI) refers to the simulation of human intelligence in machines. 
+            AI enables machines to act like human intelligence and is a combination of Machine Learning techniques and Deep Learning.
+            Types of Artificial Intelligence models are trained using vast volumes of data and can make intelligent decisions.
+            <br><b>Let’s now take a look at how the application of AI is used in different domains.</b>
+        </p>
+        <h1 class="highlight">LET'S EXPLORE THE APPLICATIONS OF AI</h1>
+        <div class="photo-container">
+            <div class="photo" id="healthcare">
+                <img src="ai_in_healthcare.jpg" alt="AI in health care" class="photo-image">
+                <div class="photo-title">AI in Health Care</div>
+            </div>
+            <div class="photo" id="facialRecognition">
+                <img src="facial_recognition-1.png" alt="Facial recognition" class="photo-image">
+                <div class="photo-title">Facial Recognition</div>
+            </div>
+            <div class="photo" id="socialMedia">
+                <img src="social_media.jpg" alt="Social Media" class="photo-image">
+                <div class="photo-title">AI in Social Media</div>
+            </div>
+            <div class="photo" id="computerVision">
+                <img src="computer_vision.jpg" alt="Computer Vision" class="photo-image">
+                <div class="photo-title">AI in Computer Vision</div>
+            </div>
+        </div>
+
+        <div class="info-box" id="healthcareinfo">
+            <h2>AI in HealthCare</h2>
             <p>
-                Artificial intelligence(AI) refers to the stimulation of human intelligence and machines,
-                AI enables machines to act like human intelligence
-                Artificial Intelligence (AI) is machine-displayed intelligence that simulates human behavior or thinking and can be trained to solve specific problems. 
-                AI is a combination of Machine Learning techniques and Deep Learning.
-                Types of Artificial Intelligence models are trained using vast volumes of data and can make intelligent decisions.
-                <b>Let’s now take a look at how the application of AI is used in different domains.</b>
+                One of the critical AI applications is its integration with the healthcare and medical field.
+                AI transforms healthcare by improving diagnostics, personalizing treatment plans, and optimizing patient care.
+                AI algorithms can analyze medical images, predict disease outbreaks, and assist in drug discovery, enhancing the overall quality of healthcare services.
+                <br><b>Example:</b> IBM Watson Health uses AI to analyze vast amounts of medical data, assisting doctors in diagnosing diseases and recommending personalized treatment plans.
             </p>
-            <h1 class="highlight">LET'S EXPLORE THE APPLICATIONS OF AI</h1>
-            <div class="photo-container">
-                <div class="photo" id="healthcare">
-                    <img src="C:\Users\Asus\Desktop\ai in health care.jpg" alt="AI in health care" class="photo-image">
-                    <div class="photo-title">AI in health care</div>
-                    </div>
-                    <div class="photo" id="Facial recognition">
-                        <img src="C:\Users\Asus\Desktop\facial_recognition-1.png" alt="Facial recognition" class="photo-image">
-                        <div class="photo-title">Facial Recognition</div>
-                        </div>
-                        <div class="photo" id="Social Media">
-                            <img src="C:\Users\Asus\Desktop\social media.jpg" alt="Social Media" class="photo-image">
-                            <div class="photo-title">AI in Social Media</div>
-                            </div>
-                            <div class="photo" id="Computer Vision">
-                                <img src="C:\Users\Asus\Desktop\computer vsion.jpg" alt="Computer Vision" class="photo-image">
-                                <div class="photo-title">AI in Computer Vision</div>
-                                </div>
-            </div>
-            <div class="info-box" id="healthcareinfo">
-                <h2> AI in HealthCare </h2>
-                <p>One of the critical AI applications is its integration with the healthcare and medical field.
-                    AI transforms healthcare by improving diagnostics, personalizing treatment plans, and optimizing patient care.
-                    AI algorithms can analyze medical images, predict disease outbreaks, and assist in drug discovery, enhancing the overall quality of healthcare services.
+            <button class="close-btn" onclick="hideInfo('healthcareinfo')">Close</button>
+        </div>
 
-                    Example
-                    IBM Watson Health uses AI to analyze vast amounts of medical data, assisting doctors in diagnosing diseases and recommending personalized treatment plans.</p>
-                    <button class="close-btn"
-                    onclick="hideInfo('healthcareinfo')">close</button>
-            </div>
-            <div class="info-box" id="FacialRecognitionInfo"></div>
-                <h2> Facial Recognition </h2>
-                <p>Face recognition technology uses AI to identify and verify individuals based on facial features.
-                    This technology is widely used in security systems, access control, and personal device authentication, providing a convenient and secure way to confirm identity.
+        <div class="info-box" id="facialRecognitionInfo">
+            <h2>Facial Recognition</h2>
+            <p>
+                Face recognition technology uses AI to identify and verify individuals based on facial features.
+                This technology is widely used in security systems, access control, and personal device authentication, providing a convenient and secure way to confirm identity.
+                <br><b>Example:</b> Apple's Face ID technology uses face recognition to unlock iPhones and authorize payments, offering a secure and user-friendly authentication method.
+            </p>
+            <button class="close-btn" onclick="hideInfo('facialRecognitionInfo')">Close</button>
+        </div>
 
-                    Example
-                    Apple's Face ID technology uses face recognition to unlock iPhones and authorize payments, offering a secure and user-friendly authentication method.</p>
-                    <button class="close-btn"
-                    onclick="hideInfo('FacialRecognitionInfo')">close</button>
-        </section>
+        <div class="info-box" id="socialMediaInfo">
+            <h2>Social Media</h2>
+            <p>
+                AI enhances social media platforms by personalizing content feeds, detecting fake news, and improving user engagement.
+                AI algorithms analyze user behavior to recommend relevant posts, ads, and connections.
+                <br><b>Example:</b> Facebook uses AI to curate personalized news feeds, showing users content that aligns with their interests and engagement patterns.
+            </p>
+            <button class="close-btn" onclick="hideInfo('socialMediaInfo')">Close</button>
+        </div>
+
+        <div class="info-box" id="computerVisionInfo">
+            <h2>Computer Vision</h2>
+            <p>
+                Computer vision involves using AI to interpret and process visual information from the world around us.
+                It enables machines to recognize objects, people, and activities in images and videos, leading to security, healthcare, and autonomous vehicle applications.
+                <br><b>Example:</b> Self-driving cars use computer vision to detect and respond to obstacles, traffic signals, and pedestrians, ensuring safe navigation.
+            </p>
+            <button class="close-btn" onclick="hideInfo('computerVisionInfo')">Close</button>
+        </div>
+
+        <script>
+            document.getElementById('healthcare').addEventListener('click', function() {
+                showInfo('healthcareinfo');
+            });
+            document.getElementById('facialRecognition').addEventListener('click', function() {
+                showInfo('facialRecognitionInfo');
+            });
+            document.getElementById('socialMedia').addEventListener('click', function() {
+                showInfo('socialMediaInfo');
+            });
+            document.getElementById('computerVision').addEventListener('click', function() {
+                showInfo('computerVisionInfo');
+            });
+
+            function showInfo(infoId) {
+                hideAllInfo();
+                document.getElementById(infoId).style.display = 'block';
+            }
+
+            function hideAllInfo() {
+                document.querySelectorAll('.info-box').forEach(function(box) {
+                    box.style.display = 'none';
+                });
+            }
+
+            function hideInfo(infoId) {
+                document.getElementById(infoId).style.display = 'none';
+            }
+        </script>
     </body>
-
 </html>
