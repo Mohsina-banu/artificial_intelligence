@@ -5,6 +5,46 @@ body{
     background-color:white;
     color:brown;
 }
+.photo-container{
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.photo{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    background-color:antiquewhite;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition:transform 0.3s;
+}
+.photo:hover{
+    transition:scale(1.05);
+}
+.photo-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.photo-image{
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+.info-box{
+    display:none;
+    padding:20px;
+    margin:20px;
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+    width:80%;
+    margin-top: 20px;
+    text-align: center;
+}
 header{
     background-color:brown;
     color: white;
@@ -26,4 +66,13 @@ p{
 .highlight{
     font-weight:bold;
     color:brown;
+}
+.close-btn{
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: brown;
+    color: antiquewhite;
+    border:none;
+    cursor: pointer;
 }
